@@ -1,0 +1,56 @@
+/* About Section Styling */
+.about-section {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 16px;
+  color: #b0b0b0;
+}
+
+/* Neighbor Requests Styling */
+.neighbor-requests {
+  padding: 20px;
+}
+
+.neighbor-requests h2 {
+  color: #e0e0e0;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.request-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.request-cards .card {
+  background-color: #1e1e1e;
+  border: 1px solid #333333;
+  border-radius: 5px;
+  padding: 15px;
+  width: 280px;
+  color: #e0e0e0;
+}
+
+.request-cards .card h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.request-cards .card p {
+  color: #b0b0b0;
+}
